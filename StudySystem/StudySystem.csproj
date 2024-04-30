@@ -62,16 +62,16 @@
 
   <ItemGroup>
     <Reference Include="StudySystem.Application">
-      <HintPath>bin\Debug\net6.0\StudySystem.Application.dll</HintPath>
+      <HintPath>Output_lib\StudySystem.Application.dll</HintPath>
     </Reference>
     <Reference Include="StudySystem.Data">
-      <HintPath>bin\Debug\net6.0\StudySystem.Data.dll</HintPath>
+      <HintPath>Output_lib\StudySystem.Data.dll</HintPath>
     </Reference>
     <Reference Include="StudySystem.Data.EF">
-      <HintPath>bin\Debug\net6.0\StudySystem.Data.EF.dll</HintPath>
+      <HintPath>Output_lib\StudySystem.Data.EF.dll</HintPath>
     </Reference>
     <Reference Include="StudySystem.Infrastructure">
-      <HintPath>bin\Debug\net6.0\StudySystem.Infrastructure.dll</HintPath>
+      <HintPath>Output_lib\StudySystem.Infrastructure.dll</HintPath>
     </Reference>
   </ItemGroup>
 	
