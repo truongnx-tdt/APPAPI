@@ -6807,3 +6807,10 @@
 2024-04-30 16:08:04.4614 Info Validating config: TargetNames=lifetimeConsole, ownFile-web, ConfigItems=35, FilePath=D:\Cookies\StudySystem\bin\Debug\net6.0\NLog.config
 2024-04-30 16:08:04.4782 Info Configuration initialized.
 2024-04-30 16:08:04.9484 Info Validating config: TargetNames=lifetimeConsole, ownFile-web, ConfigItems=35, FilePath=D:\Cookies\StudySystem\bin\Debug\net6.0\NLog.config
+2024-04-30 16:48:06.0275 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-04-30 16:48:06.0489 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-04-30 16:48:06.0635 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'allfile' not found for logging rule: *.
+2024-04-30 16:48:06.0635 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-04-30 16:48:06.1029 Info Validating config: TargetNames=lifetimeConsole, ownFile-web, ConfigItems=35, FilePath=D:\Cookies\StudySystem\bin\Debug\net6.0\NLog.config
+2024-04-30 16:48:06.1188 Info Configuration initialized.
+2024-04-30 16:48:06.7337 Info Validating config: TargetNames=lifetimeConsole, ownFile-web, ConfigItems=35, FilePath=D:\Cookies\StudySystem\bin\Debug\net6.0\NLog.config
