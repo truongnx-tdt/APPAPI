@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <BaseOutputPath>C:\Users\xuant\OneDrive\Máy tính\StudySystem\StudySystem\bin\Debug\net6.0</BaseOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entites\AddressBook.cs" />
+    <Compile Remove="Entites\AddressUser.cs" />
+    <Compile Remove="Entites\AdministrativeRegion.cs" />
+    <Compile Remove="Entites\AdministrativeUnit.cs" />
+    <Compile Remove="Entites\Banner.cs" />
+    <Compile Remove="Entites\Cart.cs" />
+    <Compile Remove="Entites\CartItem.cs" />
+    <Compile Remove="Entites\Category.cs" />
+    <Compile Remove="Entites\District.cs" />
+    <Compile Remove="Entites\Image.cs" />
+    <Compile Remove="Entites\News.cs" />
+    <Compile Remove="Entites\Order.cs" />
+    <Compile Remove="Entites\OrderItem.cs" />
+    <Compile Remove="Entites\Product.cs" />
+    <Compile Remove="Entites\ProductCategory.cs" />
+    <Compile Remove="Entites\ProductConfiguration.cs" />
+    <Compile Remove="Entites\Province.cs" />
+    <Compile Remove="Entites\RatingProduct.cs" />
+    <Compile Remove="Entites\Supplier.cs" />
+    <Compile Remove="Entites\Ward.cs" />
+    <Compile Remove="Entites\WishList.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <BaseOutputPath>C:\Users\xuant\OneDrive\Máy tính\StudySystem\StudySystem\bin\Debug\net6.0</BaseOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Service\BannerService.cs" />
+    <Compile Remove="Service\CartService.cs" />
+    <Compile Remove="Service\ChartService.cs" />
+    <Compile Remove="Service\ExtensionsService.cs" />
+    <Compile Remove="Service\Interfaces\IBannerService.cs" />
+    <Compile Remove="Service\Interfaces\ICartService.cs" />
+    <Compile Remove="Service\Interfaces\IChartService.cs" />
+    <Compile Remove="Service\Interfaces\IExtensionsService.cs" />
+    <Compile Remove="Service\Interfaces\ILocationService.cs" />
+    <Compile Remove="Service\Interfaces\INewService.cs" />
+    <Compile Remove="Service\Interfaces\IOrderService.cs" />
+    <Compile Remove="Service\Interfaces\IPaymentService.cs" />
+    <Compile Remove="Service\Interfaces\IProductService.cs" />
+    <Compile Remove="Service\Interfaces\IRatingService.cs" />
+    <Compile Remove="Service\Interfaces\ISupplierService.cs" />
+    <Compile Remove="Service\LocationService.cs" />
+    <Compile Remove="Service\NewService.cs" />
+    <Compile Remove="Service\OrderService.cs" />
+    <Compile Remove="Service\PaymentService.cs" />
+    <Compile Remove="Service\ProductService.cs" />
+    <Compile Remove="Service\RatingService.cs" />
+    <Compile Remove="Service\SupplierService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="MailKit" Version="4.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.11" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+    <PackageReference Include="MimeKit" Version="4.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="VietnamNumber" Version="1.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="StudySystem.Data">
+      <HintPath>..\StudySystem\bin\Debug\net6.0\StudySystem.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="StudySystem.Data.EF">
+      <HintPath>..\StudySystem\bin\Debug\net6.0\StudySystem.Data.EF.dll</HintPath>
+    </Reference>
+    <Reference Include="StudySystem.Infrastructure">
+      <HintPath>..\StudySystem\bin\Debug\net6.0\StudySystem.Infrastructure.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
